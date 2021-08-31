@@ -1,0 +1,26 @@
+{
+  "name": "api-total",
+  "version": "1.0.0",
+  "description": "Api total js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roninJosue/api-total-js.git"
+  },
+  "keywords": [
+    "Total",
+    "js"
+  ],
+  "author": "Reynaldo Cano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roninJosue/api-total-js/issues"
+  },
+  "homepage": "https://github.com/roninJosue/api-total-js#readme",
+  "dependencies": {
+    "total4": "0.0.45"
+  }
+}
