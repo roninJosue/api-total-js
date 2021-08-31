@@ -1,8 +1,8 @@
 exports.install = () => {
-  ROUTE('POST /api/test/', test)
+  ROUTE('POST /api/test/', consumeAPI)
 }
 
-function test () {
+function consumeAPI () {
   const self = this
 
   RESTBuilder.POST('https://jsonplaceholder.typicode.com/posts/', self.body).callback((err, response) => {
