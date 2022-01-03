@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/roninJosue/api-total-js#readme",
   "dependencies": {
+    "mongoose": "^6.1.4",
     "total4": "0.0.45"
   }
 }
